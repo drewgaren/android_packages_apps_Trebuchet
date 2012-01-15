@@ -16,6 +16,9 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:launcher="http://schemas.android.com/apk/res/com.cyanogenmod.trebuchet">
+        <PreferenceCategory android:title="@string/desktop_preferences">
+        <SwitchPreference android:title="@string/show_topbar_preference" android:key="show_topbar" android:summary="@string/summary_show_topbar_preference" android:defaultValue="true" android:switchTextOn="YES" android:switchTextOff="NO" />
+        <ListPreference android:entries="@array/desktop_transitions" android:title="@string/desktop_transition_preference" android:key="desktop_transistion_effect" android:summary="@string/summary_desktop_transition_preference" android:defaultValue="default" android:dialogTitle="@string/dialog_desktop_transition_preference" android:entryValues="@array/values_desktop_transitions" />
     <!-- UI -->
     <PreferenceCategory android:title="@string/preferences_interface_title">
         <!-- Homescreen -->
@@ -91,7 +94,12 @@
                 android:title="@string/preferences_interface_general_orientation_title" />
         </PreferenceScreen>
     </PreferenceCategory>
-
+            <CheckBoxPreference android:key"ui_general" android:title="@string/preferences_interface_general_animations_tile"android:summary="@string/preferences_interface_general_animations_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference android:key"ui_general" android:title="@string/preferences_interface_general_topbar_title" android:summary="@string/preferences_interface_general_topbar_summary" />
+     </PreferenceCategory>
+    </PreferenceScreen>        
+        
     <!-- Application -->
     <PreferenceCategory android:title="@string/preferences_application_title">
         <Preference android:key="application_version"

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="desktop_transitions">
+        <item>Default</item>
+        <item>Cards off stack</item>
+        <item>Tablet Windows</item>
+    </string-array>
+    <string-array name="values_desktop_transitions">
+        <item>default</item>
+        <item>card</item>
+        <item>tablet</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+    <string-array name="wallpapers">
+        <string-array name="wallpapers" translatable="false">
+        <item>wallpaper_architecture</item>
+        <item>wallpaper_bubblegum</item>
+        <item>wallpaper_canyon</item>
+        <item>wallpaper_chroma</item>
+        <item>wallpaper_escape</item>
+        <item>wallpaper_fidelity</item>
+        <item>wallpaper_flora</item>
+        <item>wallpaper_kepler</item>
+        <item>wallpaper_leaf</item>
+        <item>wallpaper_noir</item>
+        <item>wallpaper_outofthebox</item>
+        <item>wallpaper_alone</item>
+        <item>wallpaper_orca</item>
+        <item>wallpaper_rain</item>
+        <item>wallpaper_misty_mountain</item>
+    </string-array>
+</resources>

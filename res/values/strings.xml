@@ -314,5 +314,10 @@ s -->
     <!-- General -->
     <string name="preferences_interface_general_title">Miscellaneous</string>
     <string name="preferences_interface_general_orientation_title">Auto-rotate screen</string>
-
+    <string name="preferences_interface_general_animations_title">Desktop Animations</string>
+    <string
+    name="preferences_interface_general_animations_summary">Set the  desktop page transition animation effect</string>
+     <string name="preferences_interface_general_topbar_title">Hide Notification Bar</string>
+    <string
+    name="preferences_interface_general_topbar_summary">Hide the notification bar on the desktop</string>
 </resources>
