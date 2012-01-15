@@ -28,5 +28,9 @@
         <item>wallpaper_leaf</item>
         <item>wallpaper_noir</item>
         <item>wallpaper_outofthebox</item>
+        <item>wallpaper_alone</item>
+        <item>wallpaper_orca</item>
+        <item>wallpaper_rain</item>
+        <item>wallpaper_misty_mountain</item>
     </string-array>
 </resources>
